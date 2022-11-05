@@ -1,0 +1,182 @@
+#homebody{
+    font-family: Verdana, sans-serif;
+    background-image: url(https://i.etsystatic.com/13751308/r/il/f309fe/3679844341/il_fullxfull.3679844341_gsur.jpg);
+    width: 1300px;
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    background-attachment: fixed;
+    box-shadow: 5px 5px (0,0,0, 0.3);
+
+}
+
+#top {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 1px;
+    text-align: center;
+    overflow: auto;
+}
+
+#roster{
+    overflow: auto;
+}
+
+.roster {
+	display: inline;
+}
+
+.roster a{
+    font-size: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+    box-sizing:border-box;
+    width: 15%;
+    color: #FDB927;
+}
+
+.roster img{
+    width: 200px;
+    
+}
+
+.roster figcaption{
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    padding: 3%;
+
+}
+
+.roster figcaption:hover{
+    background-color: #552583;
+    color: white;
+}
+
+#space{
+    height: 600px;
+}
+
+footer{
+    display: inline-block;
+    bottom: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:#FDB927;
+}
+
+.playerspage{
+    font-family: Verdana, sans-serif;
+    background-size: 110%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+    background-attachment: fixed;
+}
+
+.spacing1{
+    height: 50px;
+}
+
+.pagetop{
+    display: inline;
+    width: 100%;
+    overflow: auto;
+    color: #FDB927;
+}
+
+
+.pagetop p{
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 1%;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.spacing2{
+    height: 100px;
+}
+
+.left{
+    padding: 20px;
+    height: 300px;
+    flex: 4;
+}
+
+.left img{
+    border: 3px solid white;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    width: 350px; 
+    height: 480px;
+    object-fit: none;
+}
+
+.text{
+    padding: 20px;
+    height: 200px;
+    flex: 4;
+    color: #FDB927;
+    font-size: 20px;
+}
+
+.right{
+    flex: 1;
+}
+
+.playerinfo{
+    color: #FDB927;
+    background-color: black;
+    border: 20px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.playerinfo td:nth-child(odd){
+    text-align: left;
+    font-weight: bold;
+   
+}
+
+.playerinfo td:nth-child(even){
+    text-align: right;
+    padding-left: 100px;
+    width: max-content;
+    
+}
+
+.playerinfo tr:hover{
+    background-color: #552583 ;
+    color: white;
+}
+
+.playerinfo td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.spacing3{
+    height: 500px;
+}
+
+
+
+
+
